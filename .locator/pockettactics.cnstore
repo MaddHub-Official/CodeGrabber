@@ -1,0 +1,163 @@
+﻿{
+  "id": "638b3d29-c100-4113-a3f9-621ffd2cd969",
+  "name": "pockettactics",
+  "nodes": [],
+  "locators": [
+    {
+      "id": "7d119b3b-cb56-422e-a5fc-fd0505a6506d",
+      "name": "span_codes",
+      "filePath": "8e401e0c-8bec-4bba-867d-98fe30b4f593.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Roblox game codes for every experience | Pocket Tactics"
+              },
+              "url": {
+                "value": "https://www.pockettactics.com/roblox/game-codes",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "SPAN"
+                  },
+                  "ancestorId": {
+                    "value": "site_wrap"
+                  },
+                  "ancestorClass": {
+                    "value": "entry-content"
+                  },
+                  "isLeaf": {
+                    "value": "1"
+                  },
+                  "cssSelector": {
+                    "value": "body>div>article>div>ul>li>a>span"
+                  },
+                  "sInfo": {
+                    "value": "* codes"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "style": {
+                    "isCustom": true,
+                    "value": "font-weight: 400;",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "e884e458-b184-4072-b262-64d36c990d35",
+      "name": "strong_epicreward500",
+      "filePath": "0a2a82bd-d430-4a60-b8b0-b07b795fff7a.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Muscle Legends codes – free gems and strength | Pocket Tactics"
+              },
+              "url": {
+                "value": "https://www.pockettactics.com/muscle-legends/codes",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "STRONG"
+                  },
+                  "ancestorId": {
+                    "value": "site_wrap"
+                  },
+                  "ancestorClass": {
+                    "value": "entry-content"
+                  },
+                  "isLeaf": {
+                    "value": "1"
+                  },
+                  "cssSelector": {
+                    "value": "body>div>article>div>ul>li>strong"
+                  },
+                  "sInfo": {
+                    "value": "epicreward500",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "originalName": "pockettactics"
+}
