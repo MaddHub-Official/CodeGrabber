@@ -165,3 +165,4 @@ credentials.env
 *.json
 .vscode/settings.json
 *.json
+/.vscode
