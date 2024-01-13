@@ -1,3 +1,5 @@
+# app.py
+
 import os
 from tqdm import tqdm
 from gemini import Generator
@@ -25,24 +27,27 @@ def main(game_name):
             codes.append(code)
 
     if len(codes) > 0:
-        if os.path.exists(f'{game_name}.txt'):
-            with open(f'{game_name}.txt', 'r') as r:
+        if os.path.exists(f'Codes/{game_name}.txt'):
+            with open(f'Codes/{game_name}.txt', 'r') as r:
                 for code in codes:
                     if code in r.read():
                         codes.remove(code)
 
-        with open(f'{game_name}.txt', 'a') as f:
+        with open(f'Codes/{game_name}.txt', 'a') as f:
             for code in codes:
                 f.write(code)
     return codes
 
 
 if __name__ == "__main__":
-    game_name = input("Enter a game name:")
+    if not os.path.exists('Codes/'):
+        os.mkdir('Codes')
+    game_name = input("Enter the name of a Roblox game to search for codes:\n")
     count = 0
-    for i in tqdm (range(5), desc="Searching Codes: ",
+    for i in tqdm (range(5), desc="Searching for Codes: ",
                    ascii=False, ncols=75):
         count += len(main(game_name))
+
     print("Complete.")
-    print(f'{count} codes were saved to {os.curdir + game_name}.txt')
+    print(f'{count} codes were saved to Codes/{game_name}.txt')
     input('Press Any Key To Exit')
