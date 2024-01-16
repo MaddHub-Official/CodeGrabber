@@ -4,6 +4,7 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Installation](#installing)
 - [Usage](#usage)
 - [Contributing](../CONTRIBUTING.md)
 
