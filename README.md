@@ -60,9 +60,16 @@ Install dependencies
 python3 -m pip install -r requirements.txt
 ```
 
+Using Windows (Powershell Install Script)
+
+```
+Run the file named **install.ps1**
+```
+
 ## Usage <a name = "usage"></a>
 
-To run open the app with the python interpreter.
+To run open the app with the python interpreter, via Terminal or run the **CodeGrabber.cmd** file.
+
 ```
 python3 app.py
 ```
