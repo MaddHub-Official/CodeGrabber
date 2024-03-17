@@ -30,7 +30,15 @@ These instructions will get you a copy of the project up and running on your loc
     python3.exe -m ensurepip --upgrade
     ```
 
-### Installing
+## Installation
+
+### Semi-Automatic Setup
+
+* Right click the file named: **install.ps1** and select Run with Powershell.
+
+![Auto-Setup](image-0.png)
+
+### Manual Setup
 
 Create a new virtual enviroment.
 
@@ -60,12 +68,6 @@ Install dependencies
 python3 -m pip install -r requirements.txt
 ```
 
-Using Windows (Powershell Install Script)
-
-```
-Run the file named **install.ps1**
-```
-
 ## Usage <a name = "usage"></a>
 
 To run open the app with the python interpreter, via Terminal or run the **CodeGrabber.cmd** file.
@@ -73,6 +75,7 @@ To run open the app with the python interpreter, via Terminal or run the **CodeG
 ```
 python3 app.py
 ```
+
 Visit: https://ai.google.dev/ and get your free API Token.
 
 ![Get API Token](image-1.png)[https://ai.google.dev/]
